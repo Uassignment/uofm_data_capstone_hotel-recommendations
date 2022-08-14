@@ -11,10 +11,10 @@ button {
     border: none;
 }
 header{
-    background: rgb(132, 227, 244);
     margin: 0;
-    padding: 50px;
-    display:flex;
+    padding: 20px;
+    display:-ms-inline-flexbox;
+    text-align: right;
 }
 section{
     background: rgb(234, 237, 239);
@@ -39,6 +39,8 @@ padding: 0;
 list-style: none;
 }
 li{
-display: inline-block;
-margin: 0 20px 0 0;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    position: relative;
+    font-size:x-large;
 }
