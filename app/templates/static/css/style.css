@@ -1,10 +1,11 @@
+
 body {
     background:rgb(249, 247, 247) ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 h1 {
-    color: red;
+    color: rgb(0, 255, 85);
 
 }
 button {
@@ -24,9 +25,11 @@ section{
     display:flex;
 }
 div{
-    background: rgb(172, 243, 223);
-    margin: auto;
-    color: black;
+    background: rgb(212, 232, 194);
+    margin:auto;
+    width:auto;
+    
+    
 }
 footer{
     background: rgb(143, 245, 245);
@@ -44,3 +47,4 @@ li{
     position: relative;
     font-size:x-large;
 }
+
