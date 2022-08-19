@@ -5,7 +5,7 @@ body {
     
 }
 h1 {
-    color: rgb(0, 255, 85);
+    color: rgb(0, 191, 255);
 
 }
 button {
@@ -22,13 +22,13 @@ section{
     background: rgb(234, 237, 239);
     margin: 0;
     padding: 20px;
-    display:flex;
+    display:inline-block;
 }
 div{
     background: rgb(212, 232, 194);
     margin:auto;
     width:auto;
-    
+    display:inline-block;
     
 }
 footer{

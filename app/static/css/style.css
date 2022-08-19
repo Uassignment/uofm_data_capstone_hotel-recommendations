@@ -1,12 +1,9 @@
 body {
-    background:rgb(249, 247, 247) ;
+    background:rgb(240, 241, 239) ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
-h1 {
-    color: red;
 
-}
 button {
     color: blue;
     border: none;
@@ -18,20 +15,19 @@ header{
     text-align: right;
 }
 section{
-    background: rgb(234, 237, 239);
+    background: rgb(224, 231, 245);
     margin: 0;
-    padding: 20px;
+    padding: 0;
     display:flex;
 }
 div{
-    background: rgb(172, 243, 223);
-    margin: auto;
+    margin: left;
     color: black;
 }
 footer{
-    background: rgb(143, 245, 245);
+    background: rgb(224, 231, 245);
     margin: 0;
-    padding: 5px;
+    padding: 0;
 }
 ul{
 margin: 0;

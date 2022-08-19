@@ -26,10 +26,7 @@ def Tableau2():
     # Return template and data
     return render_template("Tableau2.html")
 
-@app.route("/Tableau3")
-def Tableau3():
-    # Return template and data
-    return render_template("Tableau3.html")
+
 
 @app.route("/Project_Paper")
 def Project_Paper():
