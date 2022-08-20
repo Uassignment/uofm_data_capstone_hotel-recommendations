@@ -16,7 +16,7 @@ header{
     margin: 0;
     padding: 20px;
     display:-ms-inline-flexbox;
-    text-align: right;
+    text-align: left;
 }
 section{
     background: rgb(234, 237, 239);
@@ -47,4 +47,9 @@ li{
     position: relative;
     font-size:x-large;
 }
-
+nav{
+    display: inline-block;
+    margin: 0 20px 0 0;
+    position: relative;
+    font-size:x-large;
+}
