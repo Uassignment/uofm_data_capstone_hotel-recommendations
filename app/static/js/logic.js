@@ -41,6 +41,16 @@ function makePredictions() {
         success: function(returnedData) {
             // print it
             console.log(returnedData);
+
+
+            if (returnedData["prediction"] === "1"){
+                $("#output").text("You Survived!");
+            }  else{
+                $("#output").text("You did not survive, sorry. :(");
+            }
+
+
+
         },
         error: function(XMLHttpRequest, textStatus, errorThrown) {
             alert("Status: " + textStatus);
