@@ -7,7 +7,7 @@ class ModelHelper():
     def __init__(self):
         pass
 
-    def makePredictions(self, sex_flag, age, fare, familySize, pclass, embarked):
+    def Search(self, sex_flag, age, fare, familySize, pclass, embarked):
         pclass_1 = 0
         pclass_2 = 0
         pclass_3 = 0

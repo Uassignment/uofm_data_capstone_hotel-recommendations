@@ -35,8 +35,8 @@ def PAbout_Us():
     # Return template and data
     return render_template("About_Us.html")
 
-@app.route("/makePredictions", methods=["POST"])
-def makePredictions():
+@app.route("/Search", methods=["POST"])
+def Search():
     content = request.json["data"]
     print(content)
 
@@ -48,7 +48,7 @@ def makePredictions():
     p_class = int(content["p_class"])
     embarked = content["embarked"]
 
-    preds = modelHelper.makePredictions(sex_flag, age, fare, familySize, p_class, embarked)
+    preds = modelHelper.Search(sex_flag, age, fare, familySize, p_class, embarked)
     return(jsonify({"ok": True, "prediction": str(preds)}))
 
 ######################################################
