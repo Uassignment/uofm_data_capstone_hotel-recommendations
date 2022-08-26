@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+     <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- JS -->
+    <script type="text/javascript" src="static/js/app.js"></script>
+</head> 
+
+<nav> 
+    <ul> 
+        <li><a href="/">Home</a></li>
+        <li><a href="/Tableau1">Tableau1</a></li>
+        <li><a href="/Tableau2">Tableau2</a></li>
+        <li><a href="/Project_Paper">Project Paper</a></li>
+        <li><a href="/About_Us">About Us</a></li>
+
+   </ul>
+</nav>
+</head>
+
+<body> 
+
+    <form id="searchForm">
+        <label for="hotel">Hotel</label>
+        <br />
+        <input type="text" name="hotel" id="hotel" />
+        <br />
+        <label for="rating">Rating</label>
+        <br />
+        <select name="rating" id="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <input type="submit" />
+    </form>
+    <h3>Results</h3>
+    <table id="hotelTable">
+    </table>
+    <!-- jquery template -->
+    <script id="hotelTemplate" type="text/x-jquery-tmpl">
+        <tr>    
+            <td>
+                ${name}
+            </td>
+            <td>
+                ${Address}
+            </td>
+            <td>
+                ${Rating}
+            </td>
+            <td>
+                ${Score}
+            </td>
+        </tr>
+    </script>
+    <script type="text/javascript" src="static/js/app.js"></script>
+
+      
+</body>
+</html>
