@@ -53,3 +53,5 @@ Our application successfully delivers the intended result – a hotel recommende
 If only the Grizwold's had used our app...
 
 ![Grizwalds](grizwalds.png)  
+
+![Grizwalds](grizwolds2.png) 
