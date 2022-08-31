@@ -11,7 +11,9 @@ Presented by: Addis Ashenafi, Carlos Capado, Neil Ralston
 ## Executive Summary
 
 After 26 weeks of Bootcamp, we are ready to travel abroad for some rest and relaxation!  A weekend trip to Europe sounds refreshing – but selecting a hotel seems daunting as there are so many to choose from!
+
 Never fear, your cohorts on Team 6 have developed an application to help simplify the hotel selection process.  Using a Kaggle dataset containing over 500,000 customer reviews of nearly 1,500 luxury hotels across Europe, our application processes customer review comments to recommend other hotels with similar reviews.  
+
 The expected behavior from our application is that with a user-defined input – a target hotel name – similar hotels based on customer review comments will be returned.
 
 Our application uses a Natural Language Processing (NLP) machine learning model to process customer review comments and determine similarity patterns within a content-based model.
