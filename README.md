@@ -4,8 +4,6 @@
 
 Presented by: Addis Ashenafi, Carlos Capado, Neil Ralston
 
-![Arena](hotel_arena.png)  
-
 [Link to Final Website]()
 
 [Link to Final Project Report]()
