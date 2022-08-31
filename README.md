@@ -16,9 +16,13 @@ After 26 weeks of Bootcamp, we are ready to travel abroad for some rest and rela
 
 Never fear, your cohorts on Team 6 have developed an application to help simplify the hotel selection process.  Using a Kaggle dataset containing over 500,000 customer reviews of nearly 1,500 luxury hotels across Europe, our application processes customer review comments to recommend other hotels with similar reviews.  
 
+Dataset source:
+https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe
+
 The expected behavior from our application is that with a user-defined input – a target hotel name – similar hotels based on customer review comments will be returned.
 
 Our application uses a Natural Language Processing (NLP) machine learning model to process customer review comments and determine similarity patterns within a content-based model.
+
 The TF-IDF algorithm uses a relatively simple but intuitive approach to weighting words, making it a great starting point for our application.  
 
 In our application, cosine similarity is used to measure the similarity of the TF-IDF scores of keywords derived from the hotel review comments.  
@@ -46,10 +50,4 @@ Our website consists of six pages, as follows:
 
 Our application successfully delivers the intended result – a hotel recommender that returns results of hotels with similar review comments.  Our interactive visualizations provide additional context around the data, and our website pulls together the machine learning model and visuals into a stand-alone package.  
 
-Dataset source:
-https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe
-
-Link to cleaned dataset:
-https://ralston-hotel-data-bucket.s3.amazonaws.com/Hotel_Reviews_Clean.csv
-
-
+![Grizwalds](grizwalds.png)  
