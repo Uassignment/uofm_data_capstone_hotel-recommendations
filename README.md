@@ -6,7 +6,7 @@ Presented by: Addis Ashenafi, Carlos Capado, Neil Ralston
 
 [Link to Final Website](https://hotel-recommender-app.herokuapp.com/)
 
-[Link to Final Project Report](Team 6 Final Capstone Project_Final.pdf)
+[Link to Final Project Report](Team 6 Final Capstone Project_Final)
 
 ![Apex](apex.png)  
 
