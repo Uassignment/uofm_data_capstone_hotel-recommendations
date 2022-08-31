@@ -4,7 +4,7 @@
 
 Presented by: Addis Ashenafi, Carlos Capado, Neil Ralston
 
-[Link to Final Website]()
+[Link to Final Website](https://hotel-recommender-app.herokuapp.com/)
 
 [Link to Final Project Report]()
 
