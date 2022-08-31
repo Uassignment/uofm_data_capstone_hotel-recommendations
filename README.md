@@ -1,4 +1,4 @@
-![Banner](banner.PNG)
+![Banner](banner.png)
 
 # Team 6 Final Capstone Project: European Vacation Hotel Recommender 
 
