@@ -50,4 +50,4 @@ Our website consists of six pages, as follows:
 
 Our application successfully delivers the intended result – a hotel recommender that returns results of hotels with similar review comments.  Our interactive visualizations provide additional context around the data, and our website pulls together the machine learning model and visuals into a stand-alone package.  
 
-![Grizwalds](grizwalds.png)  
+![Grizwalds](grizwalds.PNG)  
