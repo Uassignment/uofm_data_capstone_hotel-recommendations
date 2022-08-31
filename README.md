@@ -6,7 +6,7 @@ Presented by: Addis Ashenafi, Carlos Capado, Neil Ralston
 
 [Link to Final Project Report]()
 
-![Hotel Arena](hotel_arena.PNG)
+![Hotel Arena](hotel_arena.png)
 
 ## Executive Summary
 
@@ -24,13 +24,13 @@ The cosine similarity matrix was saved as a NumPy array (.npy) in an AWS S3 buck
 
 As an example of the output provided by our model, if the Senator Hotel Vienna is the selected target, the hotel with the highest review similarity score (with a minimum user rating of 8.0) is the Guitart Grand Passage.
 
-![NLP](nlp.PNG)
+![NLP](nlp.png)
 
 One of the most important aspects of data analysis is being able to tell a story through data visualizations. As such, we created several dashboards which assist us in telling a story for users trying to find the perfect hotel to stay at in Europe. 
 
 In the first illustration, we can see all the hotels in Europe which have been rated. Through the filters, it is easy to parse out hotels by rating by average score.
 
-![visual](visual.PNG)
+![visual](visual.png)
 
 Our website consists of six pages, as follows:
 
