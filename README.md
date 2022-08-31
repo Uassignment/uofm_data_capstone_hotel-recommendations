@@ -54,4 +54,4 @@ If only the Grizwold's had used our app...
 
 ![Grizwalds](grizwalds.png)  
 
-![Grizwalds](grizwolds2.png) 
+![Grizwalds](grizwold2.png) 
