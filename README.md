@@ -6,7 +6,7 @@ Presented by: Addis Ashenafi, Carlos Capado, Neil Ralston
 
 [Link to Final Project Report]()
 
-![Hotel Arena](hotel_arena.png)
+![Apex](apex.png)
 
 ## Executive Summary
 
