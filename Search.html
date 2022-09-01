@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Search</title>
+       
+         <!-- Our CSS -->
+        <link rel="stylesheet" type="text/css" href="static/css/style.css">
+     
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- JS -->
+        <script type="text/javascript" src="static/js/app.js"></script>
+<style>
+    label{
+        font-size: x-large;
+    }
+    button{
+        font-size: x-large;
+    }
+    th, td { 
+        border: 1px solid rgb(188, 186, 186);
+        text-align: center;
+        font-size: x-large;
+        max-width: fit-content;
+
+    }
+    tr:nth-child(even) {
+        background-color: rgb(234, 241, 244);
+    }
+    .fit-picture {
+        width: 250px;
+    }
+</style>
+</head>  
+
+<header> 
+    <nav>
+    <ul> 
+        <li><a href="/">Home</a></li>
+        <li><a href="/Tableau1">Tableau1</a></li>
+        <li><a href="/Tableau2">Tableau2</a></li>
+        <li><a href="/Search">Search</a></li>
+        <li><a href="/Project_Paper">Project Paper</a></li>
+        <li><a href="/About_Us">About Us</a></li>
+    </ul>
+    </nav>
+</header>
+
+<body>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="card border-primary mb-3" style="max-width: 20rem;">
+            <div class="card-header"></div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="col-form-label" for="">Hotel Name</label>
+                            <input type="text" class="form-control" value="" id="Hotel">
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-primary" id="filter">Search!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <table id="output" class="table table-bordered ">
+                    <thead>
+                        <tr>
+
+                            <th>Hotel</th>
+                            <th>Address</th>
+                            <th>Rating</th>
+                            <th>Score</th>
+                            
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+
+        <img src="../image/amsterdam.jpg" alt='Amsterdam'/>
+        <img class="fit-picture"
+     src="where-to-travel-in-2022.jpg"
+     alt="Grapefruit slice atop a pile of other slices">
+</body>
+</html>

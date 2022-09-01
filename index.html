@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+    <title>Home</title>
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- JS -->
+    <script type="text/javascript" src="static/js/app.js"></script> 
+  <style>
+    body {
+      color: #c7b39e;
+      background: #d3dac1;
+      font-family: "Roboto", sans-serif;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+    }
+  
+
+    section{
+        background: white;
+        width: auto%;
+        color: gray;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      nav li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+      .container {
+        width: auto;
+        border: 1px solid rgb(202, 240, 172);
+        border-radius: .5em;
+        padding: 10px;
+        flex-direction: column;
+        align-items: right;
+        justify-content: space-between;
+        margin: 10px;
+        text-align: left;
+      }
+      
+      .column {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+      }
+      
+      .item {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        background-color: rgba(111,41,97,.3);
+        border: 1px solid rgba(111,41,97,.5);
+      }
+      h1{
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        color-scheme: inherit;
+      }
+      h2{
+        color: black;
+      }
+      h3{
+        color: black;
+      }
+      p{
+        color: black;
+      }
+      img {
+        width: 100%;
+        height: 500px;
+
+
+      }
+  </style>
+</head>
+
+
+<body>
+<header>
+
+<nav> 
+    <ul> 
+        <li><a href="/">Home</a></li>
+        <li><a href="/Tableau1">Tableau1</a></li>
+        <li><a href="/Tableau2">Tableau2</a></li>
+        <li><a href="/Search">Search</a></li>
+        <li><a href="/Project_Paper">Project Paper</a></li>
+        <li><a href="/About_Us">About Us</a></li>
+   </ul>
+</nav>
+
+</header>
+
+
+<header>
+    <br>
+    <br>
+    <br>
+    <h1>Hotel Recommender Group 6 Final Project</h1>
+    <br>
+    <br>
+    <br>
+</header>
+
+<section class="intro">
+<div class="text-center">
+<h2 class="title">Project Overview</h2>
+</div>
+  <div class="case-study-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                 
+                  <div class="content">
+                    <h3 class="inner-title">We're here to help you find the best hotel</h3>
+                    <p class="case-description"> After 26 weeks of Bootcamp, we are ready to travel abroad for some rest and relaxation! A weekend trip to Europe sounds refreshing – but selecting a hotel seems daunting as there are so many to choose from!
+Never fear, your cohorts on Team 6 have developed an application to help simplify the hotel selection process. <br>
+Using a Kaggle dataset containing over 500,000 customer reviews of nearly 1,500 luxury hotels across Europe, our application processes customer review comments to recommend other hotels with similar reviews.
+                    </p>
+                  
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="img-content">
+                <img class="img-responsive" src="https://imageio.forbes.com/specials-images/imageserve/5ec7535a796fed0006c9cfb6/The-9-Best-Analytics-Tools-For-Data-Visualization-Available-Today/960x0.jpg?format=jpg&width=960" alt="">
+                </div>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+
+<div class="case-study-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              <!-- inner sub-title -->
+              <div class="content">
+                <h3 class="inner-title">A brief look at our Data</h3>
+                <p class="case-description">The dataset used for our project was sourced from Kaggle.
+                  You can view the data set <a href = 'https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe'>here</a>.</p>
+                <p>
+                  This dataset contains 515,000 customer reviews and scoring of 1,493 luxury hotels across Europe. The geographical location of hotels are also provided for further analysis.  The data was scraped from Booking.com.
+                </p>
+              
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="case-study-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              <!-- inner sub-title -->
+              <div class="content">
+                <h3 class="inner-title">Recommender Models</h3>
+                <p class="case-description">Our application uses a Natural Language Processing (NLP) machine learning model to process customer review comments and determine similarity patterns within a content-based model. <br> 
+                  Our Term Frequency/Inverse Document Frequency (TF/IDF) algorithm uses a relatively simple but intuitive approach to weighting words, making it a great starting point for our application. </p>
+              
+              
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="img-content">
+                <img class="img-responsive" src="https://miro.medium.com/max/1200/1*qQgnyPLDIkUmeZKN2_ZWbQ.png" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+<div class="case-study-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <!-- inner sub-title -->
+              <div class="content">
+                <h3 class="inner-title">Tableau</h3>
+                <p class="case-description">One of the most important aspects of data analysis is being able to tell a story through data visualizations. As such, we created several dashboards which assist us in telling a story for users trying to find the perfect hotel to stay at in Europe.
+                
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+</section>
+   
+  </body>
+</html>
