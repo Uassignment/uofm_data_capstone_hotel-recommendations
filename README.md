@@ -8,6 +8,8 @@ Presented by: Addis Ashenafi, Carlos Capado, Neil Ralston
 
 [Link to Final Project Report](https://hotel-recommender-app.herokuapp.com/Project_Paper)
 
+[Link to Final NLP Model](Hotel_TF-IDF_Final.ipynb)
+
 ![Apex](apex.png)  
 
 ## Executive Summary
